@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title> Review form </title>
+    </head>
+    <body>
+        <fieldset>
+            <legend> Your Details </legend>
+            <label> Name: <input type="text" name="name" size="20" > </label> <br> <br>
+            <label> Email: <input type="email" name="email"> </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend> Your Review </legend>
+            <p> How did you hear about us? 
+            <select name="referrer" >
+                <option value="Friends"> Friends </option>
+                <option value="Advertisement"> Advertisement </option>
+                <option value="Google"> Google </option>
+                <option value="Other"> Other </option>
+            </select>
+            </p>
+            <p> Would you visit again? </p> 
+            <input type="radio" name="vist" value="Yes"/>Yes 
+            <input type="radio" name="vist" value="No"/> No
+            <input type="radio" name="vist" value="maybe"/>Maybe
+            <br>
+            <p> Comments</p>
+            <textarea name="comments" id="" cols="60" rows="5" placeholder="Enter your Comments"></textarea>
+            <p> 
+                <input type="checkbox" name="signup" checked="checked"/> Sign me up for email updates
+            </p>
+            <input type="submit" name="subscribe" value="Submit review">
+
+        </fieldset>
+    </body>
+</html>
